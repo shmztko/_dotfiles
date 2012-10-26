@@ -1,0 +1,32 @@
+"-----
+"NeoBundle の設定
+"-----
+filetype off "Required for NeoBundle
+if has('vim_starting')
+  set rtp+=~/.vim/bundle/neobundle.vim/
+endif
+
+call neobundle#rc(expand('~/.vim/bundle/'))
+
+"-----
+"Vundleのプラグイン設置
+"-----
+" Write Plugins here
+" Completion {{{
+  "補完 neocomplecache
+  NeoBundle 'Shougo/neocomplcache'
+
+
+" }}}
+
+" Buffer {{{
+  " NERDTree : ツリー型エクスプローラ
+  NeoBundle 'The-NERD-tree'
+  " vtreexplorer.vim : ツリー状にファイルやディレクトリの一覧を表示
+  NeoBundle 'vtreeexplorer'
+" }}}
+
+
+filetype plugin indent on
+
+

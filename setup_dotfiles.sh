@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# NeoBundle のインストール
+mkdir -p ~/.vim/bundle
+git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+
+# Dotfiles の設定
 DOT_FILES=( .vimrc .gitignore .gitconfig)
 for dotfile in ${DOT_FILES[@]}
 do

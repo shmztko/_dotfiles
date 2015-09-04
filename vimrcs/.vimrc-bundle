@@ -27,6 +27,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
   NeoBundle 'vtreeexplorer'
 " }}}
 
+" Vim 7.4系だとYamlの編集が重いのでその対応
+NeoBundle 'stephpy/vim-yaml'
+
 call neobundle#end()
 filetype plugin indent on
 

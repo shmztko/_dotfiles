@@ -10,3 +10,8 @@
   co = checkout
   br = branch
   bv = branch -avv
+  conflicts = !git ls-files -u | cut -f 2 | sort -u
+  tree = log --graph --date=iso --pretty='[%ad]%C(auto) %h%d %Cgreen%an%Creset : %s'
+  trace = log --graph --oneline --all --branches --decorate --name-status
+[core]
+  editor = vim

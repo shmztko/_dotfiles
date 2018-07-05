@@ -1,6 +1,7 @@
 "-----
 " 表示 Apperance
 "-----
+syntax on
 set showmatch                                     " 括弧の対応をハイライト
 set number                                        " 行番号表示
 set list                                          " 不可視文字表示

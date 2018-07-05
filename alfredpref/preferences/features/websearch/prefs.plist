@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>085F33C8-AD35-4DAC-87CD-3E271A419FA0</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>oppscope</string>
+			<key>text</key>
+			<string>Show OPP Scope doc</string>
+			<key>url</key>
+			<string>https://rak.app.box.com/folder/5322403293</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>BDF6DA7E-2F4B-4F78-A26E-E67565CD0AFC</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>rmsopp</string>
+			<key>text</key>
+			<string>Find RMSOPP JIRA</string>
+			<key>url</key>
+			<string>https://jira.rakuten-it.com/jira/issues/?filter=-1&amp;jql=project %3D RMSOPP AND text ~ {query} AND status NOT IN (Closed) ORDER BY created DESC</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>E5067B23-043F-4C7C-A5D8-1F8A2F9B7CDD</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>ss</string>
+			<key>text</key>
+			<string>StaffSearch</string>
+			<key>url</key>
+			<string>https://giantpanda.intra.rakuten-it.com/?disp=&amp;module=Login&amp;action=Search&amp;keyword={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
